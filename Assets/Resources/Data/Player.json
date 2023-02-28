@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "HP": 50,
+            "speed": 0.8,
+            "maxEXP": 15,
+            "mana": 50
+        },
+        {
+            "HP": 100,
+            "speed": 1,
+            "maxEXP": 50,
+            "mana": 100
+        },
+        {
+            "HP": 150,
+            "speed": 1.25,
+            "maxEXP": 100,
+            "mana": 150
+        },
+        {
+            "HP": 200,
+            "speed": 1.5,
+            "maxEXP": 200,
+            "mana": 200
+        },
+        {
+            "HP": 300,
+            "speed": 1.75,
+            "maxEXP": 300,
+            "mana": 250
+        }
+    ]
+}

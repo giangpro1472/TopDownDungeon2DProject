@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3190952129194797606
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3190952129194797603}
+  - component: {fileID: 3190952129194797600}
+  - component: {fileID: 3190952129194797601}
+  - component: {fileID: 3190952129194797602}
+  - component: {fileID: 3083240706557408387}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3190952129194797603
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3190952129194797606}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.080213785, y: 0.70337135, z: -79.14218}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3190952129194797600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3190952129194797606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4da5dbef6e84831438b909ae245af48e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponList:
+  - {fileID: 7454182192036556721, guid: 321cb56384ff9c34aa895702095ffc5d, type: 3}
+  - {fileID: -8016748925710443642, guid: 00cca8f0ae9a5d24691125fc7a94facb, type: 3}
+  - {fileID: 9008865571955983831, guid: 18014e72c3d38364d9be0c88f2dcd77a, type: 3}
+  - {fileID: 2977327880893620406, guid: 2291da990eb4b7e4bb3ec4a406f3a926, type: 3}
+  - {fileID: 602106192488265422, guid: 5af5c40efd7c4e7469e615830be4f720, type: 3}
+  - {fileID: 6853018117021584876, guid: 4bf8422b9154b9b499be00074fde101e, type: 3}
+  - {fileID: 4394537575784546858, guid: b00bc11794394c34da27f48d6fe1d4ab, type: 3}
+  characterSprites:
+  - {fileID: 21300000, guid: 8e1cdead62d20d04ab84422184e173da, type: 3}
+  - {fileID: 21300000, guid: dcd965a6ea4bcb5438b6f3aaded3d5eb, type: 3}
+  - {fileID: 21300000, guid: 58f0663a9dfc5b34396b3ff41ef4971a, type: 3}
+  - {fileID: 21300000, guid: 7c55d7bc00b2db44097f3a510d3649d8, type: 3}
+  characterName:
+  - Elf
+  - Knight
+  - Dino
+  - Wizard
+  overrideControllers:
+  - {fileID: 22100000, guid: 0bcb66315c66efa4687118407335b321, type: 2}
+  - {fileID: 22100000, guid: a4457208814079e46a35272fc2b7a822, type: 2}
+  - {fileID: 22100000, guid: 7040a1431b0037644aaeaae955fe666e, type: 2}
+  - {fileID: 22100000, guid: cc3aaa47c41e62b47a24d8d0eafe5f42, type: 2}
+  overrider: {fileID: -4203484309657004851, guid: 42293c15651b64e448822422d1cecd3d, type: 3}
+  player: {fileID: 0}
+  goldText: {fileID: 0}
+  inventory: {fileID: 3190952129194797602}
+  inventoryUI: {fileID: 0}
+  characterMenu: {fileID: 0}
+  Gold: 1000
+--- !u!114 &3190952129194797601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3190952129194797606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b09c9e5a98a654b4a9f843d4669be4d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitExplosion: {fileID: 4519762450480835470, guid: 3ec7694aa8667b04998a8753b56ed7f8, type: 3}
+  destroyExplosion: {fileID: 1368337334175712454, guid: c29dbd04eaeb0e3478a0d408c6591ecd, type: 3}
+  necromancerAttack: {fileID: 5638045137921387794, guid: ff0255818260ea54abe57f0f2d4659f4, type: 3}
+  necromancerSpecialAttack: {fileID: 641814400103177140, guid: 860bb47913995724784478c1dbadebd0, type: 3}
+  skeleton: {fileID: 4947872593069351510, guid: c9b381a567f489a499d6ca9e702eb5e4, type: 3}
+  darkScytheAttack: {fileID: -1951714303464433879, guid: 42ecd2bb7d77d564e87ce497d416c445, type: 3}
+  bestsyWrathProjectile: {fileID: 3578493418653656004, guid: 737fa0f001b2574499f3e7b3c22779cf, type: 3}
+  waterBolt: {fileID: 7430207214129820063, guid: 09c3f6fddde85b44e82e4ed76969ab3e, type: 3}
+--- !u!114 &3190952129194797602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3190952129194797606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98896f4c17534624899949e19d678b85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  items: []
+  space: 18
+--- !u!114 &3083240706557408387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3190952129194797606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a085a16f4b774674e80cacfb5ed94d1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Start
+    clip: {fileID: 8300000, guid: cd10ecef9c9070e47ac91044ceb81294, type: 3}
+    volume: 0.39
+    pitch: 1
+    source: {fileID: 0}
+    audioMixer: {fileID: 0}
+    loop: 1
+  - name: Heal
+    clip: {fileID: 8300000, guid: cb6912d5108663740ba0b789b4170a70, type: 3}
+    volume: 0
+    pitch: 1
+    source: {fileID: 0}
+    audioMixer: {fileID: 0}
+    loop: 0
+  - name: 
+    clip: {fileID: 0}
+    volume: 0
+    pitch: 1
+    source: {fileID: 0}
+    audioMixer: {fileID: 0}
+    loop: 0

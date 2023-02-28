@@ -1,0 +1,14 @@
+{
+    "data": [
+        {
+            "damage": 20,
+            "knocbackForce": 0.2,
+            "upgradePrice": 60
+        },
+        {
+            "damage": 50,
+            "knocbackForce": 0.2,
+            "upgradePrice": 100
+        }
+    ]
+}

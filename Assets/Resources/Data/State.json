@@ -1,0 +1,39 @@
+{
+    "data": [
+        {
+            "waves": [
+                {
+                    "SkeletonNum": 3,
+                    "FireDemonsNum": 3,
+                    "IceZombiesNum": 3,
+                    "MudSlimeNum": 0,
+                    "NecromancerNum": 0,
+                    "OrgeNum": 0,
+                    "Boss": 0
+                },
+                {
+                    "SkeletonNum": 2,
+                    "FireDemonsNum": 2,
+                    "IceZombiesNum": 1,
+                    "MudSlimeNum": 3,
+                    "NecromancerNum": 2,
+                    "OrgeNum": 2,
+                    "Boss": 0
+                }
+            ]
+        },
+        {
+            "waves": [
+                {
+                    "SkeletonNum": 0,
+                    "FireDemonsNum": 0,
+                    "IceZombiesNum": 0,
+                    "MudSlimeNum": 0,
+                    "NecromancerNum": 0,
+                    "OrgeNum": 0,
+                    "Boss": 1
+                }
+            ]
+        }
+    ]
+}

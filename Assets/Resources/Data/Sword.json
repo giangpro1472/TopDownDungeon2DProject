@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "damage": 10,
+            "knocbackForce": 0.2,
+            "upgradePrice": 50
+        },
+        {
+            "damage": 20,
+            "knocbackForce": 0.3,
+            "upgradePrice": 100
+        },
+        {
+            "damage": 30,
+            "knocbackForce": 0.4,
+            "upgradePrice": 200
+        },
+        {
+            "damage": 40,
+            "knocbackForce": 0.5,
+            "upgradePrice": 300
+        },
+        {
+            "damage": 50,
+            "knocbackForce": 0.6,
+            "upgradePrice": 350
+        },
+        {
+            "damage": 60,
+            "knocbackForce": 0.6,
+            "upgradePrice": 400
+        }
+    ]
+}
